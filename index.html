@@ -1,20 +1,19 @@
+# Graph Neural Networks for Social Media Analysis
 
-Preamble: The title of your project along with your name, email address and our
-current semester/year. Also, provide the link to your GitHub page
-(username.github.io/repository).
 
-Graph Neural Networks on Social Media
 David E. Nieves-Acaron
+
+
 dnievesacaro2018@my.fit.edu
+
+
 Spring 2023
+
+
 Link to Project: https://dna-courseprojects.github.io/DNA-CourseProjects/
 
-## 1. Description: A high-level description of the nature of the problem you
-are trying to tackle and the models, methods and/or approaches you will employ
-to address it. Also impor- tant is to describe what data you are going to use,
-how/from where you will obtain them and what is their nature like the number of
-available samples, number & types of features, number & types of
-targets/outputs, etc.
+
+## 1. Description: 
 
 The problem of recommendation systems and social media network analysis is one
 that many advertisers would gladly invest much time and effort into in order to
@@ -35,11 +34,13 @@ from the data will depend partially on the relevance of such features. Perhaps
 an ablation study of sorts could be performed to determine which features are
 useful, or perhaps some other study would be appropriate.
 
-## 2. Expected Scope: A paragraph (or so) that briefly describes all tasks that
-you are planning to perform for your project along with a time line featuring
-major milestones of your effort. You may also want to point out, which task(s)
-you anticipate to pose challenges to you and, if so, what type of challenges
-and how do plan to overcome them.
+In summary, the main setup that is being considered is having the input to the
+graph be a set of nodes with multiple features, and the outputs a collection of
+probabilities that a connection between two nodes (in this case, users) is
+present. This will then be verified against the actual graph, from which the
+input graph will presumably be derived.
+
+## 2. Expected Scope: 
 
 What I am planning to perform for this project is to analyze the provided data
 and show the effects of using a graph neural network on social networks for
@@ -50,18 +51,17 @@ recommendation systems.
 The timeline for this project will involve Spring Break, by which I will have
 selected and/or collected my primary data source, then the end of March, by
 which I will have experimented with different Graph Neural Network
-architectures, and decided on some models which have performed well. Then, I
-will
+architectures, and decided on some models which have performed well. 
 
 I anticipate the task of training to be of difficulty due to dimensionality of
-the data. To avoid such difficulties, I plan on procuring extra resources for
-future ML use cases, such as a Google Collab subscription. In addition, one
-other difficulty might be storing the data and querying it, which could involve
-the use of a graph database.
+the data. In addition, due to many Graph Neural Network being shallow as a
+result of what was previously mentioned, I will have to look at ways of
+increasing performance. To avoid such difficulties, I plan on procuring extra
+resources for the purpose of future ML use cases, such as a Google Collab
+subscription. In addition, one other difficulty might be storing the data and
+querying it, which could involve the use of a graph database.
 
-## 3. Expected Outcomes: A paragraph (or so) that briefly describes the
-outcomes you expect to eventually produce/achieve. Also describe how you will
-measure the success of your ICP effort.
+## 3. Expected Outcomes: 
 
 The measure of success of the ICP effort will be determined mainly by the
 success of a graph neural network at predicting the characteristics of the graph.
@@ -74,8 +74,7 @@ specific to Graph Neural Networks: recurrent GNN's Spatial Convolutional GNN's
 Spectral Convolutional GNN's. At the very least, the success of the project
 will involve exploring at least one of these in depth and implementing it.
 
-## 4. Key References: A few key references that you plan to rely on for your
-initial investigation of your topic.
+## 4. Initial Key References: 
 
 Graph Neural Networks for Social Recommendation
 https://arxiv.org/abs/1902.07243
@@ -84,6 +83,9 @@ Graph Convolutional Neural Networks for Text Classification
 https://arxiv.org/abs/1809.05679
 
 Geometric Deep Learning by Michael Bronstein
+
+A Practical Tutorial on Graph Neural Networks
+https://arxiv.org/pdf/2010.05234.pdf
 
 The graph neural network model
 EEE Transactions on Neural Networks, 2009
